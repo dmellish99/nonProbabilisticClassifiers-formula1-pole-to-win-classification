@@ -1,5 +1,5 @@
-algorithm,variable_method,hyper_parameters,cv_min_accuracy,cv_max_accuracy,cv_mean_accuracy,cv_mean_recall,cv_min_precision,cv_max_precision,cv_mean_precision,cv_min_f1,cv_max_f1,cv_mean_f1,cv_mean_tps,cv_mean_tns,cv_mean_fps,cv_mean_fns,cv_mean_auc,cv_min_auc,cv_max_auc
-PART,all_features,"{'batch_size': 10, 'min_n_samples':10}",,,0.614,0.614,,,0.614,,,0.614,16.4,19.6,10.6,12,0.64,,
-PART,univariate_filter,"{'batch_size': 10, 'min_n_samples':15}",,,0.652,0.652,,,0.653,,,0.65,16.2,22,12.2,8.2,0.67,,
-PART,multivariate,"{'batch_size': 10, 'min_n_samples':15}",,,0.6758,0.676,,,0.677,,,0.674,17.2,22.4,11.2,7.8,0.652,,
-PART,wrapper,"{'batch_size': 10, 'min_n_samples':5}",,,0.665,0.67,,,0.666,,,0.661,15.8,23.2,7,12.6,0.65,,
+algorithm,variable_method,hyper_parameters,cv_min_accuracy,cv_max_accuracy,cv_mean_accuracy,cv_mean_precision,cv_min_precision,cv_max_precision,cv_mean_recall,cv_min_f1,cv_max_f1,cv_mean_f1,cv_mean_tps,cv_mean_tns,cv_mean_fps,cv_mean_fns,cv_mean_auc,cv_min_auc,cv_max_auc
+PART,all_features,"{'batch_size': 10, 'min_n_samples':10}",,,0.652,0.667,,,0.649,,,0.658,98,93,49,53,0.653,,
+PART,univariate_filter,"{'batch_size': 10, 'min_n_samples':15}",,,0.632,0.635,,,0.669,,,0.6502,101,84,58,50,0.634,,
+PART,multivariate,"{'batch_size': 10, 'min_n_samples':15}",,,0.6484,0.646,,,0.702,,,0.673,106,84,58,45,0.667,,
+PART,wrapper,"{'batch_size': 10, 'min_n_samples':5}",,,0.6758,0.676,,,0.74,,,0.7,112,86,56,39,0.652,,
